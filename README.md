@@ -54,7 +54,7 @@ AI가 나에게 말할 때는 나만의 사전 → 우리 반 사전 → 모두�
 Claude Code(AI 도우미 프로그램)에서 아래 두 줄을 입력하세요.
 
 ```bash
-claude plugin marketplace add kim6515516/agent-glossary
+/plugin marketplace add kim6515516/agent-glossary
 /plugin install agent-glossary --marketplace kim6515516/agent-glossary
 ```
 
