@@ -47,3 +47,7 @@ claude plugin marketplace add kim6515516/agent-glossary
 - `userConfig` 의 `multiple` 옵션으로 도메인을 고르게 할지(지금은 쉼표 문자열).
 - Stop 훅으로 PR 본문·보고에 쓰지 않을 말이 섞였는지 자동 검사할지.
 - 공용 저장소의 도메인별 검토자.
+
+## 라이선스
+
+MIT. [LICENSE](LICENSE) 참고.
