@@ -113,7 +113,7 @@ scripts/lint-glossary.sh docs/
 
 | 폴더·파일 | 하는 일 |
 |---|---|
-| `glossaries/` | 모두의 사전들 (`common.md`, `backend.md`, `frontend.md`) |
+| `glossaries/` | 모두의 사전들 (`common.md`, `backend.md`, `frontend.md`, `ai-eval.md`) |
 | `hooks/hooks.json` | 대화를 시작할 때 사전을 AI에게 읽혀 주는 장치 |
 | `skills/glossary/` | "용어 정리", "용어 검사"를 할 때 AI가 따르는 순서 |
 | `scripts/` | 사전을 읽는 프로그램과 틀린 말을 찾는 프로그램 |
