@@ -8,7 +8,7 @@
       "source": ".",
       "description": "공용 도메인·프로젝트·개인 용어집을 매 세션 불러오고 용어 정리·검사 절차를 제공한다",
       "category": "documentation",
-      "tags": ["glossary", "terminology", "korean"]
+      "tags": ["glossary", "terminology", "korean", "japanese"]
     }
   ]
 }

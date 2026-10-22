@@ -1,8 +1,8 @@
 {
   "name": "agent-glossary",
   "displayName": "Agent Glossary",
-  "version": "0.1.0",
-  "description": "공용 도메인·프로젝트·개인 3층 용어집을 매 세션 불러오고, 용어 정리 절차와 쓰지 않을 말 검사를 제공한다",
+  "version": "0.2.0",
+  "description": "공용 도메인·프로젝트·개인 3층 용어집을 매 세션 불러오고, 용어 정리 절차와 쓰지 않을 말 검사를 제공한다 (한국어·일본어)",
   "author": {
     "name": "kim6515516",
     "url": "https://github.com/kim6515516"
@@ -12,9 +12,16 @@
     "glossary",
     "terminology",
     "ubiquitous-language",
-    "korean"
+    "korean",
+    "japanese"
   ],
   "userConfig": {
+    "language": {
+      "type": "string",
+      "title": "언어 / 言語",
+      "description": "공용 용어집과 안내 문구의 언어. ko(한국어) 또는 ja(日本語)",
+      "default": "ko"
+    },
     "domains": {
       "type": "string",
       "title": "공용 도메인",
