@@ -1,0 +1,14 @@
+{
+  "name": "agent-glossary",
+  "owner": { "name": "kim6515516", "url": "https://github.com/kim6515516" },
+  "description": "AI 에이전트와 사람이 같은 말을 쓰게 하는 3층 용어집 플러그인",
+  "plugins": [
+    {
+      "name": "agent-glossary",
+      "source": ".",
+      "description": "공용 도메인·프로젝트·개인 용어집을 매 세션 불러오고 용어 정리·검사 절차를 제공한다",
+      "category": "documentation",
+      "tags": ["glossary", "terminology", "korean"]
+    }
+  ]
+}

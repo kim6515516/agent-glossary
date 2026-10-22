@@ -1,0 +1,39 @@
+{
+  "name": "agent-glossary",
+  "displayName": "Agent Glossary",
+  "version": "0.1.0",
+  "description": "공용 도메인·프로젝트·개인 3층 용어집을 매 세션 불러오고, 용어 정리 절차와 쓰지 않을 말 검사를 제공한다",
+  "author": {
+    "name": "kim6515516",
+    "url": "https://github.com/kim6515516"
+  },
+  "license": "MIT",
+  "keywords": [
+    "glossary",
+    "terminology",
+    "ubiquitous-language",
+    "korean"
+  ],
+  "userConfig": {
+    "domains": {
+      "type": "string",
+      "title": "공용 도메인",
+      "description": "불러올 공용 도메인 용어집 이름(쉼표 구분). 예: common,backend",
+      "default": "common"
+    },
+    "personal_glossary": {
+      "type": "file",
+      "title": "개인 용어집 경로",
+      "description": "내 말 ↔ 공용 용어 별칭표. 없으면 건너뛴다",
+      "default": "~/.claude/glossary/personal.md"
+    },
+    "project_glossary": {
+      "type": "string",
+      "title": "프로젝트 용어집 경로",
+      "description": "프로젝트 루트 기준 상대 경로",
+      "default": "docs/glossary.md"
+    }
+  },
+  "repository": "https://github.com/kim6515516/agent-glossary",
+  "homepage": "https://github.com/kim6515516/agent-glossary"
+}
